@@ -29,5 +29,5 @@ minetest.register_on_joinplayer(function(player)
 	local form = "size [6,4] textarea[0,0;6.6,7;help;*** Form title ***;".. welcome_msg.welcome.."]" ..
 	"button_exit[5,1.1;1,6;exit;Ok]"
 	        -- minetest.chat_send_player(name, form_msg.welcome);
-			minetest.show_formspec(name, "mt_welcome_server:welcome", form)
+			minetest.show_formspec(name, "welcome_msg:welcome", form)
 end)
