@@ -12,7 +12,7 @@
  of this license document, but changing it is not allowed.
 ]]--
 
-mt_welcome_server = {}
+welcome_msg = {}
 
 -- SETTINGS 
 
