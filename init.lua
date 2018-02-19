@@ -19,8 +19,10 @@ welcome_msg = {}
 -- Message that appears on the form when accessing the server
 welcome_msg.welcome = "Message...";
 
+--[[
 welcome_msg.players = {};
 local worldpath = minetest.get_worldpath();
+]]--
 
 minetest.register_on_joinplayer(function(player) 
 	local name = player:get_player_name(); if name == nil then return end
